@@ -28,7 +28,7 @@
           <a class="nav-link active fa-1x " style="color: rgb(20, 107, 20);" aria-current="page" href="#">HOME</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle ms-4 me-4" style="color: rgb(20, 107, 20);" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle ms me-4" style="color: rgb(20, 107, 20);" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             OUR TEAM
           </a>
           <ul class="dropdown-menu">
@@ -77,12 +77,11 @@
 <!-- carousel -->
 
 <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel" >
-  <div class="carousel-indicators ">
+  <!-- <div class="carousel-indicators ">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
-  </div>
+  </div> -->
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="./media_files/cloud.jpg" class="d-block w-100 " alt="...">
@@ -94,9 +93,9 @@
       </div>
 
     </div>
-    <div class="carousel-item">
+    <!-- <div class="carousel-item">
       <img src="./media_files/1533456-copy-of-article-image-template-2022-05-17t102422227.jpg" class="d-block w-100" alt="...">
-    </div>
+    </div> -->
     <div class="carousel-item">
       <img src="./media_files/xylem2.jpg" class="d-block w-100" alt="...">
     </div>
@@ -114,7 +113,47 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+<br>
 
+<!-- modal -->
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: rgb(20, 107, 20); color: navy;">
+  Join Us
+</button>
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content container">
+      <!-- <div class="modal-header container"> -->
+        <div class="modal-body">
+          <div class="d-flex justify-content-end">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> <br><br>
+        </div>
+        <div class="d-flex justify-content-center mb-2 ">
+        <h1 class="modal-title fs-5 fw-bold text-secondary" id="exampleModalLabel">Join Xylem Family Today</h1>
+        </div>
+      <!-- </div> -->
+
+      
+        <input placeholder="Your Name" type="text" style="border: none;"> <br> <br>
+        <input placeholder="District" type="text" style="border: none"> <br> <br>
+        <input placeholder="+91" type="phone" style="border: none"> <br><br>
+        <input placeholder="email" input="email" style="border: none"> <br><br>
+        <input placeholder="Course" type="text" name="" style="border: none">
+
+      </div>
+        <div class="pb-2 d-flex justify-content-center m-4">
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+        <button type="button" class="btn btn-primary">SUBMIT</button>
+      </div>
+      
+     
+    </div>
+  </div>
+</div>
 
 
   
