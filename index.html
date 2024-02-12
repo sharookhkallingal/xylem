@@ -9,6 +9,13 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-light ">
@@ -119,7 +126,8 @@
 
 <!-- Button trigger modal -->
 <div class="container">
-<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: rgb(20, 107, 20); color:white;">
+  
+<button type="button" class="btn animate__animated animate__flash" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: rgb(20, 107, 20); color:white;">
   JOIN US
 </button>
 
@@ -163,9 +171,9 @@
   <div class="row mt-4 p-1">
   
   <div class="col-lg-5 container bg-light ">
-    <br><h1 style="color: rgb(20, 107, 20); text-align: center;" class="fw-bolder ">2000+ Reviews</h1><br>
-    <h1 style="color: rgb(20, 107, 20); text-align: center;" class="fw-bolder">1000+ Satisfied Clients</h1> <br>
-    <p style="text-align: justify; color: navy;" class="fw-semibold" >Xylem is proud to bring India’s Best NEET,JEE teachers under one roof to provide our users the best possible learning experience and an unparalleled advantage to help them crack NEET, JEE and  KEAM. Get unlimited access to the Dream Team as a part of the Xylem Learning family.</p><br>
+    <br><div data-aos="fade-up"><h1 style="color: rgb(20, 107, 20); text-align: center;" class="fw-bolder ">2000+ Reviews</h1></div><br>
+    <div data-aos="fade-up"><h1 style="color: rgb(20, 107, 20); text-align: center;" class="fw-bolder">1000+ Satisfied Clients</h1></div><br>
+    <p style="text-align: justify;" class="fw-semibold" >Xylem is proud to bring India’s Best NEET,JEE teachers under one roof to provide our users the best possible learning experience and an unparalleled advantage to help them crack NEET, JEE and  KEAM. Get unlimited access to the Dream Team as a part of the Xylem Learning family.</p><br>
     <div class="text-center m-3">
     <button type="button" class="btn" style="background-color: rgb(20, 107, 20); color: white;">ENQUIRE NOW</button>
     </div>
@@ -175,7 +183,9 @@
 </div>
 </div>
 </div>
-<br>
+<br><br>
+
+<h1 style="text-align: center; color: rgb(20, 107, 20); " class="fw-bolder fa-4x">This Helps you get ahead of the crowd</h1><br>
 
 <!-- card -->
 
@@ -186,8 +196,9 @@
       <div class="card text-bg-light border-0">
         <img src="./media_files/twentyfour.webp" class="card-img-top" style="height: 180px;" alt="...">
         <div class="card-body">
-          <h5 style="color: rgb(20, 107, 20); text-align: center;" class="card-title">24X7 ACCESS</h5>
-          <p style="text-align: justify; color: navy;" class="card-text fw-semibold">Study anywhere anytime, either using your mobile, desktop or laptop. Download lessons and view them offline or stream them directly. Designed for your convenience.</p>
+          <div data-aos="flip-up">
+          <h5 style="color: rgb(20, 107, 20); text-align: center;" class="card-title">24X7 ACCESS</h5> </div>
+          <p style="text-align: justify;" class="card-text fw-semibold">Study anywhere anytime, either using your mobile, desktop or laptop. Download lessons and view them offline or stream them directly. Designed for your convenience.</p>
           <a href="#" class="btn" style="background-color: rgb(20, 107, 20); color: white;">READ MORE</a>        
         </div>
       </div>
@@ -196,8 +207,9 @@
       <div class="card card text-bg-light border-0" >
         <img src="./media_files/ai-timetable.webp" class="card-img-top" style="height: 180px;" alt="...">
         <div class="card-body">
-          <h5 style="color: rgb(20, 107, 20); text-align: center;" class="card-title">AI POWERED TIMETABLE</h5>
-          <p style="text-align: justify; color: navy;" class="card-text fw-semibold">Now plan your schedule with the help of our AI-Powered Time table.  Get a fully customized timetable that helps you plan better and be ready for your exams.</p><br>
+          <div data-aos="flip-up">
+          <h5 style="color: rgb(20, 107, 20); text-align: center;" class="card-title">AI POWERED TIMETABLE</h5> </div>
+          <p style="text-align: justify;" class="card-text fw-semibold">Now plan your schedule with the help of our AI-Powered Time table.  Get a fully customized timetable that helps you plan better and be ready for your exams.</p><br>
 
           <a href="#" class="btn" style="background-color: rgb(20, 107, 20); color: white;">READ MORE</a>
         </div>
@@ -207,8 +219,9 @@
       <div class="card card text-bg-light border-0" >
         <img src="./media_files/knowledge.webp" class="card-img-top" style="height: 180px;" alt="...">
         <div class="card-body">
-          <h5 style="color: rgb(20, 107, 20); text-align: center;" class="card-title">INDEPTH KNOWLEDGE BASE</h5>
-          <p style="text-align: justify; color: navy;" class="card-text fw-semibold">Get every little information you need on all topics through our recorded lessons, live sessions, handwritten notes and Q-Bank. You dont need to open a book anymore.</p>
+          <div data-aos="flip-up">
+          <h5 style="color: rgb(20, 107, 20); text-align: center;" class="card-title">INDEPTH KNOWLEDGE BASE</h5> </div>
+          <p style="text-align: justify;" class="card-text fw-semibold">Get every little information you need on all topics through our recorded lessons, live sessions, handwritten notes and Q-Bank. You dont need to open a book anymore.</p>
           <a href="#" class="btn" style="background-color: rgb(20, 107, 20); color: white;">READ MORE</a>
         </div>
       </div>
@@ -217,6 +230,57 @@
   <br>
 
 </div>
+
+<div class="container">
+  <div class="p-lg-5">
+    <h1 class="p-5 fw-bolder fa-4x" style="text-align: center;">Check out few of our <br>
+      FREE Video Lessons</h1>
+      <div style="text-align: end;"><a style="text-decoration:double; color: rgb(20, 107, 20); " class="fw-bold" href="">Subscribe <i class="fa-solid fa-arrow-right fa-xl ms-2 gy-2" style="color: rgb(20, 107, 20);"></i></a> </div>
+    </div>
+</div>
+
+<!-- footer  -->
+
+<footer class="bg-light">
+
+<div class="container ">
+  <div class="row p-5">
+    <div class="col-lg-4 gy-4">
+      <p class="fw-semibold" style="text-align: justify;"><br><br><br>Xylem is born out of Dr.Ananthu’s vision to help students using his self developed, tried and tested methodology which already has benefitted many.</p>
+    </div>
+    <div class="col-lg-3 gy-4">
+      <h5 style="color: navy;" class="fw-semibold">EXPLORE</h5> <br>
+      <a class="flink" style="text-decoration: none; " href="">About Us</a><br>
+      <a class="flink" style="text-decoration: none; " href="">Our Team</a><br>
+      <a class="flink" style="text-decoration: none; " href="">Courses</a><br>
+      <a class="flink" style="text-decoration: none; " href="">App Features</a><br>
+      <a class="flink" style="text-decoration: none; " href="">Class Room</a><br>
+    </div>
+    <div class="col-lg-3 gy-4">
+      <h5 style="color: navy;" class="fw-semibold">INFORMATION</h5> <br>
+      <a class="flink" style="text-decoration: none; " href="">App Login</a><br>
+      <a class="flink" style="text-decoration: none; " href="">Contact Us</a><br>
+      <a class="flink" style="text-decoration: none; " href="">Privacy Policy</a><br>
+      <a class="flink" style="text-decoration: none; " href="">Refund Policy</a><br>
+      <a class="flink" style="text-decoration: none; " href="">Shipping Policy</a><br>
+      <a class="flink" style="text-decoration: none; " href="">Terms of service</a><br>
+    </div>
+    <div class="col-lg-2 gy-4">
+      <h5 style="color: navy;" class="fw-semibold">SOCIAL MEDIA</h5> <br>
+      <pre><a href=""><i class="slogos fa-brands fa-facebook fa-xl"></i></a>  <a href=""><i class="slogos fa-brands fa-youtube fa-xl" ></i></a>  <a href=""><i class="slogos fa-brands fa-instagram fa-xl" ></i></a>  <a href=""><i class="slogos fa-brands fa-x-twitter fa-xl" ></i></a>  </pre>
+    </div>
+  </div>
+
+</div>
+
   
+</footer>
+<br>
+<p style="text-align: center; color: dimgray; " class=" fw- fa-1x">© 2023 -24 XYLEM LEARNING. All Rights Reserved</p>
+
+
 </body>
+<script>
+  AOS.init();
+</script>
 </html>

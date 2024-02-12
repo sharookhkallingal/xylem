@@ -50,3 +50,21 @@
 /* .card-img-top{
     height: 400px;
 } */
+
+
+.slogos:hover{
+
+color: rgb(20, 107, 20);
+}
+
+.flink:hover{
+    color: rgb(20, 107, 20);
+}
+
+.flink{
+    color: black;
+}
+
+.slogos{
+    color: black;
+}
